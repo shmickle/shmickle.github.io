@@ -1,0 +1,1 @@
+Created for the purpose of learning more while building a site from scratch.
