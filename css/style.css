@@ -5,3 +5,15 @@ nav {
 .first-section {
     margin: 20px 0 0 0;
 }
+
+.bw {
+    filter: gray;
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .4s ease-in-out; 
+}
+
+.bw:hover {
+    filter:none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
