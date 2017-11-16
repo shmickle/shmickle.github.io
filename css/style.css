@@ -18,6 +18,6 @@ nav {
     -webkit-transform: scale(1.01);
 }
 
-.fa-linkedin-square {
+.fa-linkedin-square, .fa-codepen, .fa-github {
     font-size:1.25em;
 }
