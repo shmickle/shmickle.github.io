@@ -17,3 +17,7 @@ nav {
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01);
 }
+
+.fa-linkedin-square {
+    font-size:1.25em;
+}
