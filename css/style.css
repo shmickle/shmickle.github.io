@@ -21,3 +21,32 @@ nav {
 .fa-linkedin-square, .fa-codepen, .fa-github {
     font-size:1.25em;
 }
+
+.parallax-container {
+    height: 400px;
+}
+
+.parallax-text-section {
+    margin: 125px 0 0 0;
+}
+
+.parallax-text {
+    color: #fff;
+    text-shadow: #000 2px 2px 5px; 
+}
+
+  /* Mobile Styles */
+@media (max-width: 768px) {
+    .parallax-container {
+       height: 250px;
+    }
+    .parallax-text-section {
+        margin: 0;
+    }
+}
+
+@media (max-width: 370px) {
+    .parallax-text {
+        font-size: 3.5rem;
+    }
+}
