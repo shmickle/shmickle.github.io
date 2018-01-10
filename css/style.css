@@ -35,6 +35,26 @@ nav {
     text-shadow: #000 2px 2px 5px; 
 }
 
+@keyframes preload {
+    100% {transform: rotate(360deg);}
+}
+
+#preloader-wrap {
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    position:fixed;
+    top: 0; left: 0;
+}
+
+#preload {
+    position:absolute;
+    left: 45%;
+    top: 45%;
+    animation: preload 2s infinite;
+}
+
   /* Mobile Styles */
 @media (max-width: 768px) {
     .parallax-container {
