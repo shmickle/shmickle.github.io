@@ -1,9 +1,5 @@
-nav {
-    background-color: #16A085;
-}
-
 .first-section {
-    margin: 20px 0 0 0;
+    margin: 20px 0;
 }
 
 .bw {
@@ -27,7 +23,7 @@ nav {
 }
 
 .parallax-text-section {
-    margin: 125px 0 0 0;
+    margin: 150px 0 0 0;
 }
 
 .parallax-text {
