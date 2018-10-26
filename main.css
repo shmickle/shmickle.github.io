@@ -1,0 +1,49 @@
+/* =========================
+
+    VARIABLES
+
+   ========================= */
+
+:root {
+    --dark-bg: #282C34;
+}
+
+/* ========================= */
+
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+/* =========================
+
+    FIXED SIDENAV SECTION
+
+   ========================= */
+
+.profile-photo {
+    display: block;
+    width: 75%;
+    height: auto;
+    border-radius: 25%;
+    margin: 0 auto;
+}
+
+.dark-bg {
+    background-color: var(--dark-bg);
+}
+
+@media only screen and (max-width : 992px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+
+    .profile-photo {
+        width: 60%;
+    }
+
+}
