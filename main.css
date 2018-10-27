@@ -5,10 +5,34 @@
    ========================= */
 
 :root {
-    --dark-bg: #282C34;
+    --darkest: #282C34;
+    --darker: #3C4F76;
+    --neutral: #33658A;
+    --lighter: #2A9D8F;
+    --lightest: #F4FFF8;
 }
 
-/* ========================= */
+/* =========================
+
+   COLORS
+
+   ========================= */
+
+.dark-bg {
+    background-color: var(--darkest);
+}
+
+.lightest-text {
+    color: var(--lightest);
+}
+
+.lighter-text {
+    color: var(--lighter);
+}
+
+.neutral-text {
+    color: var(--neutral);
+}
 
 header,
 main,
@@ -22,16 +46,48 @@ footer {
 
    ========================= */
 
-.profile-photo {
+.sidenav .user-view {
+    margin-bottom: 0px;
+}
+
+.sidenav .user-view .circle.profile-photo {
     display: block;
-    width: 75%;
+    width: 65%;
     height: auto;
-    border-radius: 25%;
     margin: 0 auto;
 }
 
-.dark-bg {
-    background-color: var(--dark-bg);
+.sidenav .user-view .name {
+    font-size: 1.2rem;
+}
+
+.sidenav .user-view a:hover {
+    background-color: transparent;
+}
+
+.sidenav li:first-child {
+    line-height: 1rem;
+}
+
+.personal-links {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.personal-links i {
+    font-size: 2.5rem;
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+.personal-links i:hover {
+    color: var(--neutral);
+}
+
+.sidenav .divider {
+    margin: 4px 0 0 0;
+    background-color: var(--lighter);
 }
 
 @media only screen and (max-width : 992px) {
