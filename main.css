@@ -22,6 +22,14 @@
     background-color: var(--darkest);
 }
 
+.darkest-text {
+    color: var(--darkest);
+}
+
+.darker-text {
+    color: var(--darker);
+}
+
 .lightest-text {
     color: var(--lightest);
 }
@@ -69,6 +77,29 @@ footer {
     line-height: 1rem;
 }
 
+.sidenav li:not(:first-child):hover {
+    background: var(--lighter);
+}
+
+.sidenav li:not(:first-child) a {
+    font-size: 1.2rem;
+}
+
+.sidenav li a {
+    color: var(--lightest);
+}
+
+.sidenav li:not(:first-child) a i {
+    color: var(--lighter);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.sidenav li:not(:first-child) a:hover i {
+    color: var(--lightest);
+}
+
 .personal-links {
     margin: 10px 0 0 0;
     display: flex;
@@ -78,6 +109,8 @@ footer {
 .personal-links i {
     font-size: 2.5rem;
     height: 40px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -86,8 +119,36 @@ footer {
 }
 
 .sidenav .divider {
-    margin: 4px 0 0 0;
+    margin: 15px 0;
     background-color: var(--lighter);
+}
+
+/* =========================
+
+    ANIMATIONS
+
+   ========================= */
+
+.expandInOut {
+    animation: expandInOut 1.25s ease;
+}
+
+@keyframes expandInOut {
+    0% {
+        width: 0;
+    }
+
+    33% {
+        width: 85%;
+    }
+
+    66% {
+        width: 50%;
+    }
+
+    100% {
+        width: 65%;
+    }
 }
 
 @media only screen and (max-width : 992px) {

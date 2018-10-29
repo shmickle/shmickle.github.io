@@ -1,5 +1,7 @@
 window.onload = () => {
     sidenavInitialization();
+    const profilePhoto = document.querySelector('.profile-photo');
+    profilePhoto.classList.add('expandInOut');
 }
 
 function sidenavInitialization() {
