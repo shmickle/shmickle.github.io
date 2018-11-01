@@ -142,7 +142,9 @@ footer {
 
 .tooltip::after,
 .tooltip::before {
-    transition: all 0.2s linear;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .tooltip::before {
