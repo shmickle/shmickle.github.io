@@ -1,0 +1,22 @@
+{
+  "name": "shmickle.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass sass/main.scss css/styles.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmickle/shmickle.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shmickle/shmickle.github.io/issues"
+  },
+  "homepage": "https://github.com/shmickle/shmickle.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
