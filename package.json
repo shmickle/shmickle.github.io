@@ -4,7 +4,8 @@
   "description": "Portfolio Site",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass sass/main.scss css/styles.css --output-style compressed"
+    "build-css": "node-sass src/css/main.scss lib/css/compiled-scss.css --output-style expanded | postcss lib/css/compiled-scss.css -d lib/css/",
+    "build-js": "babel src/js -d lib/js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "homepage": "https://github.com/shmickle/shmickle.github.io#readme",
   "dependencies": {
     "node-sass": "^4.9.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "postcss-cli": "^6.0.1",
+    "postcss-preset-env": "^6.3.0"
   }
 }
