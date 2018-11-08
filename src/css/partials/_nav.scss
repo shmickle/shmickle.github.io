@@ -1,5 +1,13 @@
 @import "../modules/all";
 
+nav {
+    background: $darkest;
+
+    @media screen and (min-width: 993px) {
+        height: 0;
+    }
+}
+
 .sidenav {
     background: $darkest;
 
