@@ -41,23 +41,25 @@
         &::before {
             background-image: linear-gradient(to bottom right, $lighter, $neutral);
             top: 50%;
-            transform: translate(-60px, -50%);
+            left: 0;
+            transform: translate(-50px, -50%);
         }
 
         &::after {
             top: 50%;
-            transform: translate(-20px, -50%);
+            left: 0;
+            transform: translate(20px, -50%);
             border-right-width: 0;
             border-left-color: $neutral;
         }
 
         &:hover {
             &::before {
-                transform: translate(-88px, -50%);
+                transform: translate(-100%, -50%);
             }
 
             &::after {
-                transform: translate(-45px, -50%);
+                transform: translate(0px, -50%);
             }
 
             &::before,
@@ -72,11 +74,13 @@
         &::before {
             background-image: linear-gradient(to bottom left, $lighter, $neutral);
             top: 50%;
-            transform: translate(20px, -50%);
+            right: 0;
+            transform: translate(50px, -50%);
         }
 
         &::after {
             top: 50%;
+            right: 0;
             transform: translate(-20px, -50%);
             border-left-width: 0;
             border-right-color: $neutral;
@@ -84,11 +88,11 @@
 
         &:hover {
             &::before {
-                transform: translate(41px, -50%);
+                transform: translate(100%, -50%);
             }
 
             &::after {
-                transform: translate(4px, -50%);
+                transform: translate(0px, -50%);
             }
 
             &::before,
