@@ -4,7 +4,7 @@
   "description": "Portfolio Site",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass src/css/main.scss lib/css/main.css --output-style compressed | postcss lib/css/main.css -d lib/css/",
+    "build-css": "node-sass src/css/main.scss lib/css/main.css --output-style compressed --watch | postcss lib/css/main.css -d lib/css/ --watch",
     "build-js": "babel src/js -d lib/js"
   },
   "repository": {
