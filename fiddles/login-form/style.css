@@ -1,0 +1,104 @@
+:root {
+    --pink: #FF71CE;
+    --teal: #01CDFE;
+    --purple: #B967FF;
+    --white: #efefef;
+}
+
+body {
+    background-image: url('background.png');
+    /* Credit https://www.reddit.com/user/potato11teen https://www.reddit.com/r/outrun/comments/911v20/classic_retrowave_skyline_wallpaper_1920_x_1080/ */
+    font-family: 'Audiowide', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: 480px;
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 5px;
+    margin-top: 85px;
+    padding: 60px 40px 50px;
+}
+
+.form-wrapper::before {
+    content: "";
+    background: url('avatar.jpeg') no-repeat;
+    position: absolute;
+    left: 85px;
+    top: -85px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.form-wrapper__title {
+    color: var(--pink);
+    align-self: center;
+}
+
+.form-wrapper__label {
+    color: var(--teal);
+    font-size: 1.1rem;
+}
+
+.form-wrapper__input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px var(--teal) solid;
+    outline: none;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.form-wrapper__input:focus {
+    transform: scale(1.05);
+}
+
+.form-wrapper__input[placeholder] {
+    color: var(--pink);
+}
+
+.form-wrapper__submit {
+    cursor: pointer;
+    background: var(--purple);
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    padding: 10px 0;
+    border-radius: 50px;
+    color: var(--white);
+    transition: opacity 0.2s ease;
+}
+
+.form-wrapper__submit:hover {
+    opacity: 0.7;
+}
+
+.form-wrapper__submit:active {
+    background-color: var(--pink);
+}
+
+.form-wrapper__forgot-password {
+    margin-top: 20px;
+    color: var(--teal);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.form-wrapper__forgot-password:hover {
+    color: var(--pink);
+}
