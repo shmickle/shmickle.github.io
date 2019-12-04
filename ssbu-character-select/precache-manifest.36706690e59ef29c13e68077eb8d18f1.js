@@ -15982,5 +15982,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/ssbu-character-select/robots.txt"
+  },
+  {
+    "revision": "586496dbc2cf4aed015ab9690291bf9d",
+    "url": "/ssbu-character-select/service-worker.js"
   }
 ]);
