@@ -1,5 +1,3 @@
-importScripts("/ssbu-character-select/precache-manifest.36706690e59ef29c13e68077eb8d18f1.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
 /**
  * Welcome to your Workbox-powered service worker!
  *
@@ -18,7 +16,7 @@ importScripts(
 )
 
 importScripts(
-  '/ssbu-character-select/precache-manifest.41e23989ee0e161bc86970bae814bc43.js'
+  '/ssbu-character-select/precache-manifest.36706690e59ef29c13e68077eb8d18f1.js'
 )
 
 workbox.core.setCacheNameDetails({ prefix: 'ssbu-select-screen' })
@@ -55,4 +53,3 @@ workbox.routing.registerRoute(
       })
   }
 )
-
