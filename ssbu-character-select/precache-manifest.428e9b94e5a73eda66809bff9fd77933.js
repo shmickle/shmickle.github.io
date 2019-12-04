@@ -15620,7 +15620,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssbu-character-select/img/zero-suit-samus-min.49e5182b.png"
   },
   {
-    "revision": "1ef2bec86b1a20095b4dabbd001dd7b8",
+    "revision": "bfb44ee05d8d59fedfff364c0df20f4b",
     "url": "/ssbu-character-select/index.html"
   },
   {
@@ -15632,7 +15632,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssbu-character-select/js/chunk-vendors.eb23116d.js"
   },
   {
-    "revision": "e36d995a37ce5a7816074160b7225da7",
+    "revision": "53732b8e3e60ff4f8fcb1b08b5f1f4fe",
     "url": "/ssbu-character-select/manifest.json"
   },
   {

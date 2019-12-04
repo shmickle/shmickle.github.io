@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ssbu-character-select/precache-manifest.740424aea720f361dbd4092f53a1678e.js"
+  "/ssbu-character-select/precache-manifest.428e9b94e5a73eda66809bff9fd77933.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ssbu-select-screen"});
