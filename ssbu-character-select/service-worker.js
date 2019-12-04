@@ -16,7 +16,7 @@ importScripts(
 )
 
 importScripts(
-  '/ssbu-character-select/precache-manifest.36706690e59ef29c13e68077eb8d18f1.js'
+  '/ssbu-character-select/precache-manifest.83fabe94d6ffff02302a8957f0ea4c7e.js'
 )
 
 workbox.core.setCacheNameDetails({ prefix: 'ssbu-select-screen' })
@@ -45,6 +45,7 @@ workbox.routing.registerRoute(
     return placeholderHandler
       .handle(args)
       .then(response => {
+        alert('Online: Fetch was called successful')
         console.log('Online: Fetch was called successful')
         return response
       })
