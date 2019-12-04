@@ -45,7 +45,6 @@ workbox.routing.registerRoute(
     return placeholderHandler
       .handle(args)
       .then(response => {
-        alert('Online: Fetch was called successful')
         console.log('Online: Fetch was called successful')
         return response
       })
