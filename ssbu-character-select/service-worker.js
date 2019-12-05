@@ -1,4 +1,4 @@
-importScripts("/ssbu-character-select/precache-manifest.906b445908964def8f6b8dc99e056413.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/ssbu-character-select/precache-manifest.eb0c7ba496dd7cfb5c78d213714c0d3e.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 workbox.core.setCacheNameDetails({ prefix: 'ssbu-select-screen' })
 

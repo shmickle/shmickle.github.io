@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4feb7c6a0847fd18b1c",
-    "url": "/ssbu-character-select/css/app.49321bfd.css"
+    "revision": "621145cd24ad325f38d2",
+    "url": "/ssbu-character-select/css/app.dec7edba.css"
   },
   {
     "revision": "06f1f4ecac0f32c84e7ba0ad77c0e11a",
@@ -15620,12 +15620,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssbu-character-select/img/zero-suit-samus-min.49e5182b.png"
   },
   {
-    "revision": "37db9905b66efd62295a1c62f7452dc7",
+    "revision": "e7abc3205a093db034c6b97a44847b18",
     "url": "/ssbu-character-select/index.html"
   },
   {
-    "revision": "e4feb7c6a0847fd18b1c",
-    "url": "/ssbu-character-select/js/app.85104176.js"
+    "revision": "621145cd24ad325f38d2",
+    "url": "/ssbu-character-select/js/app.4b439e4d.js"
   },
   {
     "revision": "c94b76ffbe2849133be8",
@@ -15978,6 +15978,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "68b0a7bfb336228ce3148910da9746f8",
     "url": "/ssbu-character-select/media/zero-suit-samus.68b0a7bf.wav"
+  },
+  {
+    "revision": "f79e095cc04c99d46d78bff5ba5aaae2",
+    "url": "/ssbu-character-select/pwa-prompt.js"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
