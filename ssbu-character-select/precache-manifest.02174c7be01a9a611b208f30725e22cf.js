@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "621145cd24ad325f38d2",
-    "url": "/ssbu-character-select/css/app.dec7edba.css"
+    "revision": "f884fc57913e7d6fc2d6",
+    "url": "/ssbu-character-select/css/app.9c40b195.css"
   },
   {
     "revision": "06f1f4ecac0f32c84e7ba0ad77c0e11a",
@@ -15620,12 +15620,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssbu-character-select/img/zero-suit-samus-min.49e5182b.png"
   },
   {
-    "revision": "e7abc3205a093db034c6b97a44847b18",
+    "revision": "60e46ccb8f309b6cb026d38aa4e3435b",
     "url": "/ssbu-character-select/index.html"
   },
   {
-    "revision": "621145cd24ad325f38d2",
-    "url": "/ssbu-character-select/js/app.4b439e4d.js"
+    "revision": "f884fc57913e7d6fc2d6",
+    "url": "/ssbu-character-select/js/app.a69866a3.js"
   },
   {
     "revision": "c94b76ffbe2849133be8",
