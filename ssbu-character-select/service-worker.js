@@ -1,23 +1,4 @@
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/2aRDsh
- */
-
-importScripts(
-  'https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js'
-)
-
-importScripts(
-  '/ssbu-character-select/precache-manifest.83fabe94d6ffff02302a8957f0ea4c7e.js'
-)
+importScripts("/precache-manifest.efe76d93bb3880514a0923155710111b.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 workbox.core.setCacheNameDetails({ prefix: 'ssbu-select-screen' })
 
@@ -35,14 +16,14 @@ self.addEventListener('message', event => {
 self.__precacheManifest = [].concat(self.__precacheManifest || [])
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
 
-const placeholderHandler = workbox.strategies.cacheFirst({
-  cacheName: 'placeholder-cache'
+const apiHandler = workbox.strategies.cacheFirst({
+  cacheName: 'api-cache'
 })
 
 workbox.routing.registerRoute(
   'https://ssbu-character-select.firebaseio.com/fighters.json',
   args => {
-    return placeholderHandler
+    return apiHandler
       .handle(args)
       .then(response => {
         console.log('Online: Fetch was called successful')
@@ -53,3 +34,4 @@ workbox.routing.registerRoute(
       })
   }
 )
+
