@@ -1,1 +1,1 @@
-Portfolio Site | https://shmickle.github.io
+Portfolio Site
